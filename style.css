@@ -8,10 +8,9 @@
 html {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
-  color: var(--dark);
 }
 body {
-  background: #ccc;
+  background: rgb(117, 189, 58);
   margin: 30px 50px;
   line-height: 1.4;
 }
@@ -22,6 +21,7 @@ body {
   padding: 0.6rem 1.3rem;
   text-decoration: none;
   border: 0;
+  border-radius: 6px;
 }
 .wrapper {
   display: grid;
@@ -53,6 +53,7 @@ img {
   text-transform: uppercase;
   font-size: 1.1rem;
   box-shadow: var(--shadow);
+  border-radius: 6px;
 }
 .main-nav a:hover {
   background: var(--dark);
@@ -80,6 +81,7 @@ img {
   align-items: start;
   justify-content: center;
   box-shadow: var(--shadow);
+  border-radius: 20px;
 }
 
 .showcase h1 {
@@ -88,7 +90,7 @@ img {
   color: var(--light);
 }
 .showcase p {
-  font-size: 2rem;
+  font-size: 1rem;
   margin-top: 0;
   color: var(--light);
 }
@@ -99,6 +101,7 @@ img {
   justify-content: center;
   box-shadow: var(--shadow);
   padding: 1.5rem;
+  border-radius: 20px;
 }
 .top-box .interst {
   font-size: 1rem;
@@ -108,4 +111,6 @@ img {
 }
 .top-box-b {
   grid-area: top-box-b;
+}
+.footer {
 }
